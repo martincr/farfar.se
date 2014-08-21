@@ -1,0 +1,713 @@
+/*
+Theme Name: Farfar
+Theme URI: http://wordpress.org/
+Description: Ernie, Adrian, Bo och Bobby.
+Version: 3 (twitter)
+Author: Bo Gustavsson
+Author URI: http://farfar.se
+
+*/
+
+
+
+/* Begin Typography & Colors */
+body {
+	font-size: 12px;
+	font-family: Georgia, Serif;
+	background: #fafafa;
+	color: #000;
+	text-align: center;
+	font-weight: normal;
+	}
+
+#page {
+	background-color: white;
+	text-align: left;
+	}
+
+#container{
+	text-align: left;
+	}
+	
+
+
+#content, p{
+	text-align: left;
+	}
+
+h1, h2, h3 {
+	font-family: Georgia, Serif;
+	font-weight: bold;
+	}
+
+h1 {
+	font-size: 40px;
+	text-align: left;
+	}
+
+h2 {
+	font-size: 14px;
+	}
+
+h3 {
+	font-size: 14px;
+	}
+
+h1, h1 a, h1 a:hover, h1 a:visited, #headerimg .description {
+	text-decoration: none;
+	}
+
+
+h2, h2 a, h2 a:hover, h2 a:visited, h3, h3 a, h3 a:hover, h3 a:visited, #sidebar h2, #wp-calendar caption, cite {
+	text-decoration: none;
+	}
+
+
+a, h2 a:hover, h3 a:hover {
+	text-decoration: none;
+	}
+
+a {
+	color: #1a9b00;
+	text-decoration: none;
+	font-family: Georgia, Serif;
+	}
+
+	#topcontent p, #rightcontent p, #leftcontent p{
+		margin: 0px 0px 8px 0px;
+		padding: 0px;
+	}
+	
+	
+		
+	em{
+	background-color: #d7ffdb;
+	font-style: normal;
+	padding-left: 2px;
+	padding-right: 2px;
+	}
+
+/* End Typography & Colors */
+
+
+
+/* Begin Structure */
+body {
+	margin: 0 auto 20px auto;
+	padding: 0 0 10px 0;
+	}
+	
+#root{
+	float: left;
+	width: 100%;
+}
+#container{
+	width: 1020px;
+	margin: 0 auto;
+}
+
+#boxing{
+	background-color: #e6eaeb;
+	float: left;
+	width: 1020px;
+}
+	
+#whitearea{
+	background-color: #ffffff;
+	margin: 0px 10px 0px 10px;
+	float: left;
+	padding: 0 13px 1px 13px;
+	border-bottom: 1px solid #d0e0d0;
+}
+
+	
+#whitearea p{
+	line-height: 17px;
+	letter-spacing: 0.2px;
+}
+
+
+#header {
+	margin: 0px 0 0 0px;
+	padding: 0px;
+	height: 118px;
+	width: 973px;
+	float: right;
+	border-bottom: 4px solid black;
+	}
+	
+	#navbox{
+		float: left;
+		text-align: left;
+	}
+	
+	#logo{
+		margin: 0 0 0px 0;
+		padding: 13px 0 8px 0;
+		width: 320px;		
+		float: left;
+		border-right: 1px solid lightgrey;
+	}
+	
+	#rssbox{
+		background-color: black;
+		display: block;
+		float: right;
+		height: 78px;
+	}
+
+	#rssbox a{
+		margin: 60px 9px 0 5px;
+		float: left;
+		color: white;
+		font-family: Helvetica, Serif;
+		font-size: 12px;
+		background: transparent url(http://www.farfar.se/wp/wp-content/themes/farfar/rss.gif) no-repeat;
+		padding: 3px 0 0 18px;
+	}	
+
+	#navitems{
+		border-top: 1px solid black;
+		padding: 12px 0 0 0;
+		width: 973px;
+		float: left;
+		margin: 0px;
+	}
+	
+	#navitems a{
+		margin: 0 16px 0 0px;
+		font-family: Helvetica, sans-serif;
+		text-decoration: none;
+		font-size: 14px;
+		font-weight: bold;
+		color: black;
+		letter-spacing: 1px;
+
+	}
+	#navitems a:hover{
+		color: #1a9b00;
+	}
+	
+	#navitems a.active{
+		color: #1a9b00;
+	}
+
+	#fullwide{
+		width: 973px;
+		float: left;
+		margin: 0 0 0 0;
+	}
+		
+	#bigboy{
+		width: 640px;
+		float: left;
+		margin: 13px 0 0 0;
+	}
+	
+
+	
+	#bigsplash{
+		margin: 0 0 0px 0px;
+		padding: 0 0 0 0px;
+		border-bottom: 4px solid black;
+		float: left;
+	}
+	
+	#bigsplashproject{
+		margin: 0 0 13px 0px;
+		padding: 0 0 0 0px;
+		float: left;
+	}
+		
+	#bigsplashproject h1, #bigsplashproject h1 a, #bigsplash h1, #bigsplash h1 a{
+		color: #000;
+		font-weight: bold;
+		font-family: Helvetica, Sans-serif;
+		margin: 8px 0px 0px -1px;
+		padding: 0px 0px 7px 0px;
+		letter-spacing: -1px;	
+	}
+
+	
+	.border{
+		border-bottom: 1px solid black;
+	}
+
+	#bigsplashproject h3, #bigsplashproject h3 a, #bigsplash h3, #bigsplash h3 a{
+		color: #000;
+		font-weight: normal;
+		font-family: Helvetica, Sans-serif;
+		margin: 10px 0 10px 0px;
+	}
+		
+	#leftsplash{
+		width: 319px;
+		float: left;
+		border-right: 1px solid lightgrey;
+		margin: 0 0 13px 0;
+	}
+	#rightsplash{
+		width: 320px;
+		float: left;
+	}
+
+
+	#leftsplash img, #rightsplash img{
+		margin: 13px 0 0 0px;
+	}
+	#rightflash{
+		margin: 0 0 0 13px;
+	}
+	#topcontent{
+		float: left;
+		margin: 13px 0 13px 0;
+		padding: 0px;
+	}
+		
+	#topleftcontent{
+		width: 306px;
+		float: left;
+		border-right: 1px solid #000000;
+		margin: 0px 0px 0px 0px;
+		padding: 0px 13px 0px 0px;	
+	}
+
+	#topcontent p{
+		margin: 0px;
+		padding: 0px;
+	}
+
+	#topcontentwide{
+	       font-size: 15px;
+	       width: 640px;
+	
+	   }
+	
+	#topcontentwide p{
+		line-height: 20px;
+	}
+
+	#toprightcontent{
+		width: 307px;
+		float: left;
+		margin: 0 0 0 13px;
+		padding: 0 0 0 0px;
+		}
+		
+	
+	#leftsplash h1, #rightsplash h1, #leftsplash h1 a, #rightsplash h1 a{
+		color: black;
+		font-size: 14px;
+		font-weight: normal;
+		font-family: Helvetica, Sans-serif;
+		margin: 10px 13px 10px 0px;
+		padding: 0 0 13px 0;
+		border-bottom: 1px solid black;
+	}
+	
+	#rightsplash h1{
+		margin: 10px 0 10px 13px;
+	}
+	
+	#leftcontent{
+		margin: 0px 0 0px 0;
+		padding: 0px 0px 0px 0px;
+		width:307px;
+	}		
+
+	#rightcontent{
+		margin: 0px 0 0 13px;
+		padding: 0px 0 0px 0px;
+		width: 307px;
+	}
+	
+
+	
+	.bordertop{
+		border-top: 1px solid black;
+	}
+	
+	#topcontent p a, #leftcontent p a, #rightcontent p a{
+		font-weight: bold;
+	}	
+		
+	#smallboy{
+		width: 320px;
+		float: right;
+		height: 100%;
+		margin: 13px 0 0px 0;
+	}
+
+	#newsitems{
+		padding: 0px 0px 0px 0px;
+		border-left: 1px solid lightgrey;
+		width:320px;
+	}
+
+	#newsitems h2{
+		color: #303030;
+		font-size: 14px;
+		font-weight: normal;
+		font-family: Helvetica, Sans-serif;
+		display: inline;	
+	}
+	#newsitems h2 a{
+		color: #1a9b00;
+		font-size: 14px;
+		font-weight: normal;
+		font-family: Helvetica, Sans-serif;
+		display: inline;	
+	}
+	
+	#newsheader-block{
+		background-color: black;
+		height: 38px;
+	}
+	
+	#newsheader-container{
+	
+	}
+	
+	#newsheader-left{
+		padding: 13px;
+		float: left;
+	}
+	
+	#newsheader-left h2{
+		color: white;
+	}
+	
+	
+	#newsheader-right, #newsheader-right-rss{
+		padding: 13px;
+		float: right;
+	}
+		
+	
+	#newsheader-right h2 a{
+		color: white;
+	}
+	
+	.newsitem-last h3, .newsitem-last h3 a, .newsitem h3, .newsitem h3 a{
+		font-size: 9px;
+		font-weight: normal;
+		font-family: Georgia, serif;
+	}
+	
+	.newsitem-last h1, .newsitem-last h1 a, .newsitem h1, .newsitem h1 a{
+		font-size: 14px;
+		font-weight: bold;
+		font-family: Helvetica, Sans-serif;
+	}
+	
+	.newsitem-last h1, .newsitem h1{
+		margin: 0 0 0 0px;
+	}
+	.newsitem-last h3, .newsitem h3{
+		margin: 0 0 3px 0px;
+	}
+
+	.newsitem{
+		border-bottom: 1px solid #000;
+		padding: 0px 0 0 0;
+		margin: 13px;
+		width: 307px;
+	}
+
+	.newsitem-last{
+		padding: 0px 0 0 0;
+		margin: 13px 13px 0 13px;
+		width: 307px;
+	}
+		
+	.newsitembox{
+		display: block;
+	}	
+
+	.newsitembox p{
+		margin: 0px 0px 0px 0;
+		padding: 2px 0px 13px 0px;
+		font-weight: normal;
+		font-size: 12px;
+		font-family: Georgia, serif;
+	}
+
+	.newsitembox a{
+		color: #1a9b00;
+		font-family: Georgia, serif;
+		font-size: 12px;
+	}
+
+
+	#allprojectsnavigation{
+		background-color: #000;
+		float: left;
+		margin: 0 0 0px 10px;
+		width: 999px;
+		color: #fff;
+	}	
+		
+	
+	#projectitems{
+		background-color: #e7e7e7;
+		padding: 0px 0px 0px 0px;
+	}	
+
+	#projectlistingwide{
+		margin: 13px 0 0 0;
+		padding: 0px 0px 30px 0px;
+		width: 986px;
+		float: left;
+	}
+
+	#projectlistingheader{
+		background-color: #000;
+		float: left;
+		margin: 0 0 0px 0;
+		width: 973px;
+		color: #fff;
+	}	
+
+	.projectitemflow{
+		width: 307px;
+		height: 201px;
+		float: left;
+		margin: 13px 26px 0px 0px;
+	}
+	
+	.projectitemflow_end{
+		width: 307px;
+		height: 201px;
+		float: left;
+		margin: 13px 0 0 0;
+	}
+
+	.projectitemflowheader{
+		margin: 4px 0 0px 0px;
+		display: block;
+	}
+	
+
+	.projectitemflow h3, .projectitemflow h3 a, .projectitemflow_end h3, .projectitemflow_end h3 a{
+		font-size: 14px;
+		font-weight: bold;
+		font-family: Helvetica, Sans-Serif;
+		margin: 0 0 0 0px;
+		display: inline;
+		color: black;	
+	}
+	.projectitemflow h1, .projectitemflow h1 a, .projectitemflow_end h1, .projectitemflow_end h1 a{
+		font-size: 14px;
+		font-weight: normal;
+		font-family: Helvetica, Sans-serif;
+		margin: 0 0 0 0px;
+		display: inline;
+		color: black;
+	}
+	
+
+	
+	.projectitem-last h3, .projectitem-last h3 a, .projectitem h3, .projectitem h3 a{
+		font-size: 9px;
+		font-weight: normal;
+		font-family: Georgia, Serif;
+		margin: 0 0 0 0px;
+		display: inline;	
+	}
+	.projectitem-last h1, .projectitem-last h1 a, .projectitem h1, .projectitem h1 a{
+		font-size: 14px;
+		font-weight: normal;
+		font-family: Helvetica, Sans-serif;
+		margin: 0 0 0 0px;
+		display: inline;
+		color: black;
+	}
+	
+	.projectitem{
+		margin: 13px 0 13px 13px;
+		padding: 0 0 13px 0;
+		border-bottom: 1px solid black;
+	}
+	
+	.projectitem-last{
+		margin: 13px 0 13px 13px;
+		padding: 0 0 13px 0;
+	}	
+	
+	.projectitem-last p, .projectitem p{
+		margin: 0px 0 0px 0px;
+	}
+
+	.projectitem-last img, .projectitem img{
+		margin: 0 0 10px 0;
+	}
+		
+	.projectitembox{
+		border-top: 1px solid #2b2b2b;
+		display: block;
+		margin: 6px 0 36px 0;
+		padding: 12px 8px 12px 8px;		
+	}	
+	
+	.infobox{
+		display: block;
+		margin: 6px 0 36px 0;
+		padding: 0px 8px 12px 8px;		
+	}
+	
+	.projectitembox p, .infobox p{
+		font-weight: normal;
+	}
+
+	.projectitembox a, .infobox a{
+		color: #d0d0d0;
+		font-family: times, serif;
+	}
+
+	.projectitembox p a, .infobox p a{
+		color: #1a9b00;
+		font-family: times, serif;
+	}	
+
+	
+	#projectitems h2{
+		color: black;
+		font-size: 14px;
+		font-weight: normal;
+		font-family: Helvetica, Sans-serif;
+		display: inline;	
+	}
+	#projectitems h2 a{
+		color: black;
+		font-size: 14px;
+		font-weight: normal;
+		font-family: Helvetica, Sans-serif;
+		display: inline;	
+	}
+		
+	#bigfooter{
+		height: 136px;
+		float: left;
+	}	
+		
+	#bigfooter p{
+		margin: 0px 0px 8px 0px;
+		font-size: 10px;
+	}	
+	
+	#bigfooter a{
+		color: black;
+	}
+
+	#footerleft{
+		width: 320px;
+		float: left;
+		margin: 13px 0 0 23px;
+		border-right: 1px solid lightgray;
+		height: 110px;
+	}
+	
+
+	#footeraddress{
+		width: 167px;
+		float: left;
+		margin: 13px 0 0 13px;
+		border-right: 1px solid lightgray;
+		height: 110px;
+	}
+	
+	#footertelephone{
+		width: 139px;
+		float: left;
+		margin: 13px 0 0 13px;
+		border-right: 1px solid lightgray;
+		height: 110px;
+	}
+
+	#footerright{
+		width: 290px;
+		float: left;
+		margin: 13px 0 0 13px;
+	}	
+
+
+.clear {
+	clear: both;
+}
+
+/* End Structure */
+
+
+
+/*	Begin Headers */
+h1 {
+	}
+
+h2 {
+	}
+
+
+h3 {
+	}
+/* End Headers */
+
+
+
+/* Begin Images */
+p img {
+	padding: 0;
+	max-width: 100%;
+	}
+
+/*	Using 'class="alignright"' on an image will (who would've
+	thought?!) align the image to the right. And using 'class="centered',
+	will of course center the image. This is much better than using
+	align="center", being much more futureproof (and valid) */
+
+img.centered {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	}
+
+img.alignright {
+	padding: 4px;
+	margin: 0 0 2px 7px;
+	display: inline;
+	}
+
+img.alignleft {
+	padding: 4px;
+	margin: 0 7px 2px 0;
+	display: inline;
+	}
+
+.alignright {
+	float: right;
+	}
+
+.alignleft {
+	float: left
+	}
+/* End Images */
+
+
+
+.center {
+	text-align: center;
+	}
+
+.hidden {
+	display: none;
+	}
+
+a img {
+	border: none;
+	}
+
+a, a:active {
+	border: none;
+	outline: none;
+	}
+	
+/* End Various Tags & Classes*/
